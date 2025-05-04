@@ -261,6 +261,12 @@ section {
   gap: 1rem;
 }
 
+/* PROFILE SECTION */
+
+#profile {
+  position: relative;
+}
+
 /* ABOUT SECTION */
 
 #about {
@@ -431,8 +437,16 @@ article .icon {
 footer {
   height: 26vh;
   margin: 0 1rem;
+  position: relative;
 }
 
 footer p {
   text-align: center;
+}
+
+footer .rotated-arrow {
+  transform: rotate(180deg);
+  position: absolute;
+  right: 4rem;
+  bottom: 4.5rem;
 }
