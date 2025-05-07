@@ -338,6 +338,11 @@ section {
   height: 50%;
 }
 
+.details-container.color-container {
+  flex: 0 0 300px;
+  margin: 0.5rem;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -422,7 +427,7 @@ article .icon {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 400px;
+  height: 350px;
 }
 
 .project-img {
