@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Esther SY CHOI - Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../mediaqueries.css" />
   </head>
 
   <body>
@@ -14,16 +14,16 @@
       <div class="logo">Esther SY CHOI</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
+          <li><a href="#about">소개</a></li>
           <!-- <li><a href="#experience">Experience</a></li> -->
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#projects">프로젝트</a></li>
           <!-- <li><a href="#skills">Skills</a></li> -->
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">연락처</a></li>
           <li class="language-selector">
-            <span class="current-flag">🇬🇧</span>
+            <span class="current-flag">🇰🇷</span>
             <div class="language-dropdown">
-              <a href="french/index_fr.html" class="language-option">🇫🇷</a>
-              <a href="korean/index_kor.html" class="language-option">🇰🇷</a>
+              <a href="../index.html" class="language-option">🇬🇧</a>
+              <a href="../french/index_fr.html" class="language-option">🇫🇷</a>
             </div>
           </li>
         </ul>
@@ -37,17 +37,17 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#about" onclick="toggleMenu()">소개</a></li>
           <!-- <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> -->
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">프로젝트</a></li>
           <!-- <li><a href="#skills" onclick="toggleMenu()">Skills</a></li> -->
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">연락처</a></li>
         </div>
       </div>
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/person-icon.jpg" alt="esychoi profile picture" />
+        <img src="../assets/person-icon.jpg" alt="esychoi profile picture" />
       </div>
       <div class="section__text">
         <h1 class="title">Esther Sun Young CHOI</h1>
@@ -55,23 +55,23 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume.pdf')"
+            onclick="window.open('../assets/resume.pdf')"
           >
-            Download CV
+            이력서 보기
           </button>
           <button class="btn btn-color-1" onclick="location.href='#contact'">
-            Contact Info
+            연락처
           </button>
         </div>
         <div id="socials-container">
           <img
-            src="./assets/linkedin.png"
+            src="../assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
             onclick="window.open('https://linkedin.com/in/esychoi')"
           />
           <img
-            src="./assets/github.png"
+            src="../assets/github.png"
             alt="My Github profile"
             class="icon"
             onclick="window.open('https://github.com/esychoi')"
@@ -79,41 +79,41 @@
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="../assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='#about'"
       />
     </section>
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+      <p class="section__text__p1">나의 대한</p>
+      <h1 class="title">소개</h1>
       <div class="section-container">
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="./assets/award-solid.svg"
+                src="../assets/award-solid.svg"
                 alt="Experience icon"
                 class="icon"
               />
-              <h3>Experience</h3>
-              <p>2+ years (2023-)
+              <h3>경력</h3>
+              <p>2년+ (2023-)
                 <br />
                 ML Engineer
                 <br />
-                <a href="https://surromind.ai/" target="_blank">Surromind</a> (Seoul, South Korea)</p>
+                <a href="https://surromind.ai/" target="_blank">Surromind</a> (서울, 대한민국)</p>
             </div>
             <div class="details-container">
               <img
-                src="./assets/user-graduate-solid.svg"
+                src="../assets/user-graduate-solid.svg"
                 alt="Education icon"
                 class="icon"
               />
-              <h3>Education</h3>
-              <p>B.Sc. Double Major Mathematics & Computer Science (2018-2021)
+              <h3>학력</h3>
+              <p>학사 - 수학 & 컴퓨터 공학 복수 과정 (2018-2021)
                 <br />
-                M.Sc. Computer Science - Data Science (2021-2023)
+                석사 - 컴퓨터 공학 - 데이터 사이언스 (2021-2023)
                 <br />
                 <a href="https://www.sorbonne-universite.fr/" target="_blank">Sorbonne Université  </a> (Paris, France)
               </p>
@@ -121,50 +121,50 @@
           </div>
           <div class="text-container">
             <p>
-              I am a Machine Learning Engineer at Surromind in Seoul, South Korea, specializing in Large Language Models.
-              Born and raised in France, I studied Mathematics and Computer Science at Sorbonne University, where I developed a solid grounding in the principles behind modern AI.
+              저는 써로마인드에서 대형 언어 모델 전문 머신러닝 엔지니어입니다.
+              프랑스에 태어나, 소르본 대학교에서 수학과 컴퓨터 공학을 전공하여 인공지능에 대한 깊은 이해를 습득하였습니다. 
               <br />
-              Today, I am focused on one core objective: bringing the power of AI to everyone, translating complex models into meaningful, real-world solutions.
+              제 핵심 목표는 인공지능의 대중화로 강력한 임팩트를 만들어내는 솔루션을 제공하고, 모두가 쉽게 접할 수 있도록 하는 것입니다.
             </p>
           </div>
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="./assets/brain-solid.svg"
+                src="../assets/brain-solid.svg"
                 alt="Hard skills icon"
                 class="icon"
               />
               <h3>Hard skills</h3>
               <p>
-                <strong>Programming Languages:</strong> <img src="https://img.shields.io/badge/Python-white?logo=python"/> <img src="https://img.shields.io/badge/C-white?logo=C"/>
+                <strong>개발 언어:</strong> <img src="https://img.shields.io/badge/Python-white?logo=python"/> <img src="https://img.shields.io/badge/C-white?logo=C"/>
                 <br />
-                <strong>Frameworks:</strong> <img src="https://img.shields.io/badge/Pytorch-white?logo=pytorch"/> <img src="https://img.shields.io/badge/Tensorflow-white?logo=tensorflow"/> <img src="https://img.shields.io/badge/FastAPI-white?logo=fastapi"/>
+                <strong>프레임워크:</strong> <img src="https://img.shields.io/badge/Pytorch-white?logo=pytorch"/> <img src="https://img.shields.io/badge/Tensorflow-white?logo=tensorflow"/> <img src="https://img.shields.io/badge/FastAPI-white?logo=fastapi"/>
                 <br />
-                <strong>Databases:</strong> <img src="https://img.shields.io/badge/Milvus-white?logo=milvus"/> <img src="https://img.shields.io/badge/MySQL-white?logo=mysql"/>
+                <strong>데이터베이스:</strong> <img src="https://img.shields.io/badge/Milvus-white?logo=milvus"/> <img src="https://img.shields.io/badge/MySQL-white?logo=mysql"/>
                 <br />
-                <strong>Tools:</strong> <img src="https://img.shields.io/badge/Git-white?logo=git"/> <img src="https://img.shields.io/badge/Docker-white?logo=docker"/>
+                <strong>도구:</strong> <img src="https://img.shields.io/badge/Git-white?logo=git"/> <img src="https://img.shields.io/badge/Docker-white?logo=docker"/>
               </p>
             </div>
             <div class="details-container">
               <img
-                src="./assets/social.png"
+                src="../assets/social.png"
                 alt="Soft skills icon"
                 class="icon"
               />
               <h3>Soft skills</h3>
               <p>
-                <strong>Languages:</strong> French (native), Korean (native), English (fluent, C1 level)
+                <strong>언어:</strong> 프랑스어 (원어민), 한국어 (모국어), 영어 (상급)
                 <br />
-                <strong>Strengths:</strong> Action-oriented and result-focused, Quick learner, Logical but creative thinking
+                <strong>장점:</strong> 선도적, 결과 중심적, 빠른 학습, 논리적이지만 창의적인 사고
                 <br />
-                <strong>Activities:</strong> Hiking, Running, Archery, Acoustic and Electric Guitar
+                <strong>활동:</strong> 등산, 런닝, 활쏘기, 어쿠스틱 및 전기 기타
               </p>
             </div>
           </div>
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="../assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='#projects'"
@@ -186,7 +186,7 @@
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="../assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='#skills'"
@@ -196,68 +196,68 @@
       <p class="section__text__p1">Discover My</p>
       <h1 class="title">Skills</h1>
       <img
-        src="./assets/arrow.png"
+        src="../assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='#projects'"
       />
     </section> -->
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+      <p class="section__text__p1">참여한</p>
+      <h1 class="title">프로젝트</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/llm-translation-us-fr.png"
+                src="../assets/llm-translation-us-fr.png"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">LLM based translation</h2>
+            <h2 class="experience-sub-title project-title">LLM 기반 번역</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='./projects/llm-translation.html'"
+                onclick="location.href='../projects/llm-translation.html'"
               >
-                Details
+                상세 정보
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/chatbot-faq.png"
+                src="../assets/chatbot-faq.png"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">AI powered school textbook</h2>
+            <h2 class="experience-sub-title project-title">스마트 디지털 교과서</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='./projects/ai-textbook.html'"
+                onclick="location.href='../projects/ai-textbook.html'"
               >
-                Details
+                상세 정보
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/signal-graph.jpg"
+                src="../assets/signal-graph.jpg"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Sound and Vibration Analysis</h2>
+            <h2 class="experience-sub-title project-title">소음 및 진동 분석</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='./projects/sound-vibration-analysis.html'"
+                onclick="location.href='../projects/sound-vibration-analysis.html'"
               >
-                Details
+                상세 정보
               </button>
             </div>
           </div>
@@ -268,55 +268,55 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/robot-arm.png"
+                src="../assets/robot-arm.png"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Robot Arm Control</h2>
+            <h2 class="experience-sub-title project-title">로봇 팔 제어</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='./projects/robot-arm.html'"
+                onclick="location.href='../projects/robot-arm.html'"
               >
-                Details
+                상세 정보
               </button>
             </div>
           </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/excavator.png"
+                src="../assets/excavator.png"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">AI Excavator</h2>
+            <h2 class="experience-sub-title project-title">AI 굴착기</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='./projects/ai-excavator.html'"
+                onclick="location.href='../projects/ai-excavator.html'"
               >
-                Details
+                상세 정보
               </button>
             </div>
           </div>
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="../assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='#contact'"
       />
     </section>
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
+      <p class="section__text__p1">소통 방법</p>
+      <h1 class="title">연락처</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
-            src="./assets/email.png"
+            src="../assets/email.png"
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
@@ -328,7 +328,7 @@
         </div>
         <div class="contact-info-container">
           <img
-            src="./assets/linkedin.png"
+            src="../assets/linkedin.png"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
@@ -340,16 +340,16 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
+            <li><a href="#about">소개</a></li>
             <!-- <li><a href="#experience">Experience</a></li> -->
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#projects">프로젝트</a></li>
             <!-- <li><a href="#skills">Skills</a></li> -->
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">연락처</a></li>
           </ul>
         </div>
       </nav>
       <img
-        src="./assets/arrow.png"
+        src="../assets/arrow.png"
         alt="Arrow icon"
         class="icon rotated-arrow"
         onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
