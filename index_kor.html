@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Esther SY CHOI - Portfolio</title>
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="../mediaqueries.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
 
   <body>
@@ -15,15 +15,13 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">소개</a></li>
-          <!-- <li><a href="#experience">Experience</a></li> -->
           <li><a href="#projects">프로젝트</a></li>
-          <!-- <li><a href="#skills">Skills</a></li> -->
           <li><a href="#contact">연락처</a></li>
           <li class="language-selector">
             <span class="current-flag">🇰🇷</span>
             <div class="language-dropdown">
-              <a href="../index.html" class="language-option">🇬🇧</a>
-              <a href="../french/index_fr.html" class="language-option">🇫🇷</a>
+              <a href="index.html" class="language-option">🇬🇧</a>
+              <a href="index_fr.html" class="language-option">🇫🇷</a>
             </div>
           </li>
         </ul>
@@ -47,7 +45,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="../assets/person-icon.jpg" alt="esychoi profile picture" />
+        <img src="./assets/person-icon.jpg" alt="esychoi profile picture" />
       </div>
       <div class="section__text">
         <h1 class="title">최선형</h1>
@@ -55,7 +53,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('../assets/resume.pdf')"
+            onclick="window.open('./assets/resume.pdf')"
           >
             이력서 보기
           </button>
@@ -65,13 +63,13 @@
         </div>
         <div id="socials-container">
           <img
-            src="../assets/linkedin.png"
+            src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
             onclick="window.open('https://linkedin.com/in/esychoi')"
           />
           <img
-            src="../assets/github.png"
+            src="./assets/github.png"
             alt="My Github profile"
             class="icon"
             onclick="window.open('https://github.com/esychoi')"
@@ -79,7 +77,7 @@
         </div>
       </div>
       <img
-        src="../assets/arrow.png"
+        src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='#about'"
@@ -93,7 +91,7 @@
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="../assets/award-solid.svg"
+                src="./assets/award-solid.svg"
                 alt="Experience icon"
                 class="icon"
               />
@@ -106,7 +104,7 @@
             </div>
             <div class="details-container">
               <img
-                src="../assets/user-graduate-solid.svg"
+                src="./assets/user-graduate-solid.svg"
                 alt="Education icon"
                 class="icon"
               />
@@ -130,7 +128,7 @@
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="../assets/brain-solid.svg"
+                src="./assets/brain-solid.svg"
                 alt="Hard skills icon"
                 class="icon"
               />
@@ -147,7 +145,7 @@
             </div>
             <div class="details-container">
               <img
-                src="../assets/social.png"
+                src="./assets/social.png"
                 alt="Soft skills icon"
                 class="icon"
               />
@@ -164,44 +162,12 @@
         </div>
       </div>
       <img
-        src="../assets/arrow.png"
+        src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='#projects'"
       />
     </section>
-    <!-- <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Surromind - Intern</h2>
-            <div class="article-container"></div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Surromind - Full Time Engineer</h2>
-            <div class="article-container"></div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="../assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='#skills'"
-      />
-    </section> -->
-    <!-- <section id="skills">
-      <p class="section__text__p1">Discover My</p>
-      <h1 class="title">Skills</h1>
-      <img
-        src="../assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='#projects'"
-      />
-    </section> -->
     <section id="projects">
       <p class="section__text__p1">참여한</p>
       <h1 class="title">프로젝트</h1>
@@ -210,7 +176,7 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="../assets/llm-translation-us-fr.png"
+                src="./assets/llm-translation-us-fr.png"
                 alt="Project 3"
                 class="project-img"
               />
@@ -219,7 +185,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='../projects/llm-translation.html'"
+                onclick="location.href='./projects/projects.html#llm-translation'"
               >
                 상세 정보
               </button>
@@ -228,7 +194,7 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="../assets/chatbot-faq.png"
+                src="./assets/chatbot-faq.png"
                 alt="Project 2"
                 class="project-img"
               />
@@ -237,7 +203,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='../projects/ai-textbook.html'"
+                onclick="location.href='./projects/projects.html#ai-textbook'"
               >
                 상세 정보
               </button>
@@ -246,7 +212,7 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="../assets/signal-graph.jpg"
+                src="./assets/signal-graph.jpg"
                 alt="Project 1"
                 class="project-img"
               />
@@ -255,7 +221,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='../projects/sound-vibration-analysis.html'"
+                onclick="location.href='./projects/projects.html#sound-vibration-analysis'"
               >
                 상세 정보
               </button>
@@ -268,7 +234,7 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="../assets/robot-arm.png"
+                src="./assets/robot-arm.png"
                 alt="Project 2"
                 class="project-img"
               />
@@ -277,7 +243,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='../projects/robot-arm.html'"
+                onclick="location.href='./projects/projects.html#robot-arm'"
               >
                 상세 정보
               </button>
@@ -286,7 +252,7 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="../assets/excavator.png"
+                src="./assets/excavator.png"
                 alt="Project 3"
                 class="project-img"
               />
@@ -295,7 +261,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='../projects/ai-excavator.html'"
+                onclick="location.href='./projects/projects.html#ai-excavator'"
               >
                 상세 정보
               </button>
@@ -304,7 +270,7 @@
         </div>
       </div>
       <img
-        src="../assets/arrow.png"
+        src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='#contact'"
@@ -316,7 +282,7 @@
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
-            src="../assets/email.png"
+            src="./assets/email.png"
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
@@ -328,7 +294,7 @@
         </div>
         <div class="contact-info-container">
           <img
-            src="../assets/linkedin.png"
+            src="./assets/linkedin.png"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
@@ -336,6 +302,7 @@
         </div>
       </div>
     </section>
+
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -349,7 +316,7 @@
         </div>
       </nav>
       <img
-        src="../assets/arrow.png"
+        src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon rotated-arrow"
         onclick="window.scrollTo({top: 0, behavior: 'smooth'})"

@@ -566,14 +566,35 @@ footer .rotated-arrow {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  padding-bottom: 6rem;
 }
 
 .project-content {
   max-width: 800px;
   text-align: justify;
   line-height: 1.6;
+  margin-top: -1rem;
+  margin-bottom: 8rem;
 }
 
 .project-content p {
   margin-bottom: 1rem;
+}
+
+/* Fixed back button */
+#project-details .btn {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: rgb(163, 163, 163) 0.1rem solid;
+}
+
+#project-details .btn:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+  border: rgb(255, 255, 255) 0.1rem solid;
 }
