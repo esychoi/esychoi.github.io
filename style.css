@@ -577,6 +577,7 @@ footer .rotated-arrow {
   line-height: 1.6;
   margin-top: -1rem;
   margin-bottom: 8rem;
+  width: 100%;
 }
 
 .project-content p {
@@ -599,4 +600,16 @@ footer .rotated-arrow {
   background: rgb(53, 53, 53);
   color: white;
   border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+/* Add media query for mobile devices */
+@media screen and (max-width: 768px) {
+  #project-details {
+    padding: 2rem 1rem;
+    margin: 0;
+  }
+
+  .project-content {
+    padding: 0 1rem;
+  }
 }
