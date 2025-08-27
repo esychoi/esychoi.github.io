@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>All Projects</title>
+		<link rel="stylesheet" href="../style.css" />
+		<link rel="stylesheet" href="../mediaqueries.css" />
+	</head>
+	<body>
+		<nav id="desktop-nav">
+			<div class="logo">Esther SY CHOI</div>
+			<div>
+				<ul class="nav-links">
+					<li><a href="./index.html#about">소개</a></li>
+					<li><a href="./index.html#projects">프로젝트</a></li>
+					<li><a href="./index.html#contact">연락처</a></li>
+					<li class="language-selector">
+						<span class="current-flag">🇰🇷</span>
+						<div class="language-dropdown">
+							<a href="../projects.html" class="language-option">🇬🇧</a>
+							<a href="../fr/projects.html" class="language-option">🇫🇷</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<section id="project-details">
+			<h1 class="title" id="llm-translation">LLM 기반 전문 번역</h1>
+			<div class="project-content">
+				<p>
+					이 프로젝트의 목표는 의료 분야에서 영어를 프랑스어로 번역하는 LLM 기반의 전문 번역기를 만드는 것이었습니다. 정확도를 높이고 번역의 일관성을 유지하기 위해 특별히 제작한 전문 용어 사전을 사용했습니다.
+					<br />
+					저는 모델의 프롬프트 엔지니어링과 모델의 평가에 참여했습니다.
+					<br />
+					<br />
+					키워드드 : 프롬프트 엔지니어링, LLM 평가, LLM 기반 번역.
+					<br />
+					기술 스택: Python, OpenAI, NLTK, FastAPI.
+				</p>
+			</div>
+
+			<h1 class="title" id="ai-textbook">스마트 디지털 교과서</h1>
+			<div class="project-content">
+				<p>
+					이 프로젝트의 목표는 초등학생들이 영어를 효과적으로 학습할 수 있도록 돕는 AI 기반 디지털 교과서를 만드는 것이었습니다.
+					<br />
+					디지털 교과서는 LLM이 생성한 퀴즈 등 인공지능 기반 다앙한 게임들이 포함된 학생용 학습 인터페이스와, 학생들의 학습율을 확인할 수 있는 교사용 페이지로 구성이 되어있습니다.
+					<br />
+					저는 디지털 교과서의의 기능에 대한 질문에 답변하는 챗봇 구현에 참여했습니다.
+					<br />
+					<br />
+					키워드 : 텍스트 임베딩, 벡터 검색.
+					<br />
+					기술 스택: Python, Transformers, NLTK, FastAPI.
+				</p>
+			</div>
+
+			<h1 class="title" id="sound-vibration-analysis">소음 및 진동 분석</h1>
+			<div class="project-content">
+				<p>
+					이 프로젝트의 목표는 CNN, RNN, LSTM과 같은 다양한 딥러닝 모델을 활용하여 전기차의 소리 및 진동 데이터를 분석을 돕는 노코드 플랫폼을 만드는 것이었습니다.
+					<br />
+					이 플랫폼에는 데이터를 시각화하고 전처리할 수 있는 대시보드, 분류 및 이상 탐지 모델을 학습할 수 있는 인터페이스, 모델 배포 페이지로 나누어져 있습니다.
+					<br />
+					저는 플랫폼의 아키텍처 설계부터 고객사에 최종 납품까지 전체 개발 단계에 참여했습니다.
+					<br />
+					<br />
+					키워드 : MLOps, AutoML.
+					<br />
+					기술 스택: Python, Pytorch, FastAPI, MLflow, Ray, Onnx.
+				</p>
+			</div>
+
+			<h1 class="title" id="robot-arm">로봇 팔 제어</h1>
+			<div class="project-content">
+				<p>
+					이 프로젝트의 목표는 다양한 물건들을 조작하는 VLA (Vision Language Action) 모델을 학습을 시키고 평가하는 것이었습니다. 대규모 공개 데이터셋에 사전 학습된 <a href="https://openvla.github.io/" target="_blank">OpenVLA</a> 모델을 본 과제에 특별히 구축한 멀티모달 한국어 데이터셋에서 파인튜닝을 했습니다.
+					<br />
+					저는 모델 학습 및 추론 파이프라인 구현과 모델 성능 평가에 사용된 IsaacGym 시뮬레이터 개발에 참여했습니다.
+					<br />
+					데이터셋과 모델은 곧 <a href="https://www.aihub.or.kr/" target="_blank">AIHub</a>에서 공개될 예정입니다.
+					<br />
+					<br />
+					키워드 : VLA 모델, 로봇, 시뮬레이션.
+					<br />
+					기술 스택: Python, Pytorch, Transformers, IsaacGym.
+				</p>
+			</div>
+
+			<h1 class="title" id="ai-excavator">AI 굴착기</h1>
+			<div class="project-content" style="padding-bottom: 20rem;">
+				<p>          
+					이 프로젝트의 목표는 굴착 또는 평탄화와 같은 다양한 건설 현장 작업을 수행을 위한 인공지능 기반 굴착기 제어 모델 집합을 개발하는 것이었습니다.
+					<br />
+					저는 지형의 기하학적 특성을 사용하여 굴착 작업을 수행을 위한 굴착기 버킷의 궤적을 생성하는 모델의 구현, 학습, 평가에 참여했습니다.
+					<br />
+					퍼셉트론(MLP)을 결합한 DMP(Dynamic Movement Primitives) 기반 시스템을 사용했습니다.
+					<br />
+					<br />
+					키워드 : 궤적 생성, AI 기반 중장비 기계.
+					<br />
+					기술 스택: Python, Pytorch.
+				</p>
+			</div>
+
+			<button class="btn btn-color-2" onclick="location.href='./index.html#projects'">
+				프로젝트로<br />돌아가기
+			</button>
+		</section>
+	</body>
+</html>
